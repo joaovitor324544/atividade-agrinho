@@ -137,6 +137,11 @@ footer {
   text-align: center;
   padding: 20px;
 } 
+.formulario button {
+    background-color: #CB6D43;
+    border: none;
+    font-weight: bold;
+}
 .menu-acessibilidade {
     position: fixed;
     top: 2rem;
