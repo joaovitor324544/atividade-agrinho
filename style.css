@@ -80,6 +80,17 @@ nav .menu {
   height: auto;
   border-radius: 8px;
 }
+.botao-inicio {
+    background-color: var(--laranja-claro);
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    /* Convertido para em aumenta o tamanho da fonte por tabela*/
+    height: 3em;
+    /* Convertido para em */
+    align-content: center;
+
+}
 
 .texto {
   width: 60%;
