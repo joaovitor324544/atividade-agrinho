@@ -66,12 +66,12 @@ Se quiser algo mais 'caderno', procure por fontes como 'Indie Flower', 'Patrick 
  }
 .imagem img{
   width: 30%; 
-  height: 15%;
+  height: 30%;
 }
 .page-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: ;
   margin-bottom: 30px;
   position: relative;
   /* Para ficar acima das linhas */
