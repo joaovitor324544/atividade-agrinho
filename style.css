@@ -51,7 +51,11 @@ height: calc(100% - 60px); /* Altura das linhas */
 background-image: repeating-linear-gradient(to bottom, #eee 0px, #eee 1px, transparent 1px, transparent 30px); /* Linhas horizontais */
 z-index: 0;
 }
+.header img{
+  width: 50%;
+  height: 30%;
 
+}
 .page-header {
 display: flex;
 justify-content: space-between;
