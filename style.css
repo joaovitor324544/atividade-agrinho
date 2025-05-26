@@ -75,7 +75,7 @@ Se quiser algo mais 'caderno', procure por fontes como 'Indie Flower', 'Patrick 
 .page-header {
   display: flex;
   justify-content: space-between;
-  align-items: ;
+  align-items: center;
   margin-bottom: 30px;
   position: relative;
   /* Para ficar acima das linhas */
@@ -84,7 +84,7 @@ Se quiser algo mais 'caderno', procure por fontes como 'Indie Flower', 'Patrick 
 
 .h3 {
   font-size: 19px;
-  margin-right: 150px;
+  margin-right: 320px;
   align-items: center;
   color: #666;
 }
