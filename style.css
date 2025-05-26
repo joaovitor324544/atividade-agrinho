@@ -122,7 +122,15 @@ Se quiser algo mais 'caderno', procure por fontes como 'Indie Flower', 'Patrick 
   z-index: 2;
   background-color: #f9f9f9;
 }
-
+.imagem-banner{
+   width: 600px;
+   height: 300px;
+   margin-left: 80px;
+} 
+.imagem-banner img{
+  width: 100%;
+  height: 100%;
+}
 .image-placeholder {
   width: 100%;
   height: 150px;
