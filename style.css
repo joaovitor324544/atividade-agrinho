@@ -1,12 +1,13 @@
 body {
-font-family: 'Open Sans', sans-serif; /* Uma fonte que simula caligrafia, se possível */
-background-color: #f0f0f0;
-display: flex;
-justify-content: center;
-align-items: center;
-min-height: 100vh;
-margin: 0;
-overflow: auto;
+  font-family: 'Open Sans', sans-serif;
+  /* Uma fonte que simula caligrafia, se possível */
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  overflow: auto;
 }
 
 /* Importar fonte para simular escrita à mão */
@@ -16,187 +17,210 @@ mas 'Open Sans' é mais legível e ainda pode simular uma escrita simples.
 Se quiser algo mais 'caderno', procure por fontes como 'Indie Flower', 'Patrick Hand', etc. */
 
 .notebook-page {
-background-color: #ffffff;
-width: 800px; /* Largura da página do caderno */
-min-height: 1000px; /* Altura mínima, pode crescer */
-padding: 40px 60px;
-border-radius: 5px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-position: relative;
-border: 1px solid #ddd;
-line-height: 1.6;
-color: #333;
-overflow: hidden; /* Para garantir que linhas e conteúdo não vazem */
+  background-color: #ffffff;
+  width: 800px;
+  /* Largura da página do caderno */
+  min-height: 1000px;
+  /* Altura mínima, pode crescer */
+  padding: 40px 60px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border: 1px solid #ddd;
+  line-height: 1.6;
+  color: #333;
+  overflow: hidden;
+  /* Para garantir que linhas e conteúdo não vazem */
 }
 
 /* Linhas do Caderno */
 .notebook-page::before {
-content: '';
-position: absolute;
-top: 0;
-left: 60px; /* Margem esquerda onde começam as linhas */
-width: 2px;
-height: 100%;
-background-color: #ff9999; /* Cor da linha vertical vermelha */
-z-index: 1;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 60px;
+  /* Margem esquerda onde começam as linhas */
+  width: 2px;
+  height: 100%;
+  background-color: #ff9999;
+  /* Cor da linha vertical vermelha */
+  z-index: 1;
 }
 
 .notebook-page::after {
-content: '';
-position: absolute;
-top: 60px; /* Onde a primeira linha horizontal começa */
-left: 0;
-width: 100%;
-height: calc(100% - 60px); /* Altura das linhas */
-background-image: repeating-linear-gradient(to bottom, #eee 0px, #eee 1px, transparent 1px, transparent 30px); /* Linhas horizontais */
-z-index: 0;
+  content: '';
+  position: absolute;
+  top: 60px;
+  /* Onde a primeira linha horizontal começa */
+  left: 0;
+  width: 100%;
+  height: calc(100% - 60px);
+  /* Altura das linhas */
+  background-image: repeating-linear-gradient(to bottom, #eee 0px, #eee 1px, transparent 1px, transparent 30px);
+  /* Linhas horizontais */
+  z-index: 0;
 }
-.header img{
-  width: 50%;
-  height: 30%;
-
+ .imagem{
+  width: 500px;
+  height: 500px;
+ }
+.imagem img{
+  width: 50%; 
+  height: 50%;
 }
 .page-header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-bottom: 30px;
-position: relative; /* Para ficar acima das linhas */
-z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+  /* Para ficar acima das linhas */
+  z-index: 2;
 }
 
 .date {
-font-size: 1.1em;
-color: #666;
+  font-size: 1.1em;
+  color: #666;
 }
 
 .checkbox-container {
-display: flex;
-gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .checkbox {
-width: 20px;
-height: 20px;
-border: 1px solid #333;
-background-color: #fff;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #333;
+  background-color: #fff;
 }
 
 .main-title {
-font-family: 'Permanent Marker', cursive; /* Uma fonte mais robusta para o título principal */
-font-size: 2.8em;
-text-align: center;
-color: #222;
-margin-top: 50px;
-margin-bottom: 40px;
-position: relative;
-z-index: 2;
+  font-family: 'Permanent Marker', cursive;
+  /* Uma fonte mais robusta para o título principal */
+  font-size: 2.8em;
+  text-align: center;
+  color: #222;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 2;
 }
 
 /* Para as caixas de imagem */
 .image-section {
-border: 1px solid #999;
-padding: 15px;
-margin-bottom: 30px;
-position: relative;
-z-index: 2;
-background-color: #f9f9f9;
+  border: 1px solid #999;
+  padding: 15px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 2;
+  background-color: #f9f9f9;
 }
 
 .image-placeholder {
-width: 100%;
-height: 150px;
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: #e0e0e0;
-color: #666;
-font-style: italic;
-cursor: pointer;
-transition: background-color 0.3s ease;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  color: #666;
+  font-style: italic;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .image-placeholder:hover {
-background-color: #d0d0d0;
+  background-color: #d0d0d0;
 }
 
 .top-image-section .image-placeholder {
-height: 200px; /* Maior para a imagem superior */
+  height: 200px;
+  /* Maior para a imagem superior */
 }
 
 .content-grid {
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 40px;
-margin-top: 30px;
-position: relative;
-z-index: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 2;
 }
 
 .column {
-display: flex;
-flex-direction: column;
-gap: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .topic-box {
-cursor: pointer;
-padding: 10px 0;
-transition: background-color 0.2s ease;
-border-bottom: 1px dashed #ccc; /* Linha pontilhada abaixo dos tópicos */
+  cursor: pointer;
+  padding: 10px 0;
+  transition: background-color 0.2s ease;
+  border-bottom: 1px dashed #ccc;
+  /* Linha pontilhada abaixo dos tópicos */
 }
 
 .topic-box:hover {
-background-color: #f5f5f5;
+  background-color: #f5f5f5;
 }
 
 .topic-title {
-font-weight: bold;
-color: #444;
-font-size: 1.1em;
-margin-bottom: 5px;
+  font-weight: bold;
+  color: #444;
+  font-size: 1.1em;
+  margin-bottom: 5px;
 }
 
 .topic-details {
-display: none; /* Escondido por padrão, JavaScript vai mostrar */
-padding-left: 15px;
-margin-top: 10px;
-border-left: 3px solid #add8e6; /* Uma linha azul clara para indicar detalhes */
-font-size: 0.95em;
-color: #555;
+  display: none;
+  /* Escondido por padrão, JavaScript vai mostrar */
+  padding-left: 15px;
+  margin-top: 10px;
+  border-left: 3px solid #add8e6;
+  /* Uma linha azul clara para indicar detalhes */
+  font-size: 0.95em;
+  color: #555;
 }
 
 .topic-details p {
-margin: 5px 0;
+  margin: 5px 0;
 }
 
 /* Estilo para detalhes visíveis */
 .topic-details.active {
-display: block;
+  display: block;
 }
 
 /* Media Queries para responsividade básica */
 @media (max-width: 900px) {
-.notebook-page {
-width: 95%;
-padding: 30px 40px;
-}
-.main-title {
-font-size: 2.2em;
-}
-.content-grid {
-grid-template-columns: 1fr; /* Colunas em uma única coluna em telas menores */
-}
+  .notebook-page {
+    width: 95%;
+    padding: 30px 40px;
+  }
+
+  .main-title {
+    font-size: 2.2em;
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr;
+    /* Colunas em uma única coluna em telas menores */
+  }
 }
 
 @media (max-width: 600px) {
-.notebook-page {
-padding: 20px 25px;
-}
-.main-title {
-font-size: 1.8em;
-}
-.notebook-page::before {
-left: 25px; /* Ajusta a margem esquerda para telas menores */
-}
+  .notebook-page {
+    padding: 20px 25px;
+  }
+
+  .main-title {
+    font-size: 1.8em;
+  }
+
+  .notebook-page::before {
+    left: 25px;
+    /* Ajusta a margem esquerda para telas menores */
+  }
 }
