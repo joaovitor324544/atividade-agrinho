@@ -64,6 +64,7 @@ Se quiser algo mais 'caderno', procure por fontes como 'Indie Flower', 'Patrick 
 .imagem {
   width: 100px;
   height: 100px;
+  align-items: center;
 }
 
 .imagem img {
@@ -82,7 +83,9 @@ Se quiser algo mais 'caderno', procure por fontes como 'Indie Flower', 'Patrick 
 }
 
 .h3 {
-  font-size: 30px;
+  font-size: 19px;
+  margin-right: 150px;
+  align-items: center;
   color: #666;
 }
 
