@@ -19,7 +19,7 @@ Se quiser algo mais 'caderno', procure por fontes como 'Indie Flower', 'Patrick 
 .notebook-page {
 background-color: #f0f0f0;
 
-  width: 1000px;
+  width: 800px;
   /* Largura da página do caderno */
   min-height: 1000px;
   /* Altura mínima, pode crescer */
