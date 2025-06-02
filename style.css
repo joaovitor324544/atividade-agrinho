@@ -192,13 +192,13 @@ background-color: #f0f0f0;
 
 /* Estilo para detalhes visíveis */
 footer{
-  margin-left: 100px;
+  box-align: center;
 }
 .topic-details.active {
   display: block;
 } 
 .page-footer {
-  background-color: #f5f5f5;
+  background-color: #ccc;
   color: #fff;
   text-align: center;
   margin-top: 40px;
