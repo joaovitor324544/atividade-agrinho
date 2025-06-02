@@ -193,6 +193,28 @@ background-color: #f0f0f0;
 /* Estilo para detalhes visíveis */
 .topic-details.active {
   display: block;
+} 
+.page-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
 }
 
 /* Media Queries para responsividade básica */
@@ -225,26 +247,4 @@ background-color: #f0f0f0;
     left: 25px;
     /* Ajusta a margem esquerda para telas menores */
   }
-}
-.page-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-  margin-top: 40px;
-}
-
-.footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.footer-links a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-.footer-links a:hover {
-  text-decoration: underline;
 }
