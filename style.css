@@ -17,35 +17,23 @@ mas 'Open Sans' é mais legível e ainda pode simular uma escrita simples.
 Se quiser algo mais 'caderno', procure por fontes como 'Indie Flower', 'Patrick Hand', etc. */
 
 .notebook-page {
+background-color: #f0f0f0;
 
-  width: 800px;
+  width: 1000px;
   /* Largura da página do caderno */
   min-height: 1000px;
   /* Altura mínima, pode crescer */
-  padding: 40px 60px;
+
   border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  position: relative;
+  
   border: 1px solid #ddd;
-  line-height: 1.6;
+ 
   color: #333;
   overflow: hidden;
   /* Para garantir que linhas e conteúdo não vazem */
 }
 
-/* Linhas do Caderno */
-.notebook-page::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 60px;
-  /* Margem esquerda onde começam as linhas */
-  width: 2px;
-  height: 100%;
-  background-color: #ff9999;
-  /* Cor da linha vertical vermelha */
-  z-index: 1;
-}
+
 
 .notebook-page::after {
   content: '';
