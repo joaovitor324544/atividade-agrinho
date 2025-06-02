@@ -191,6 +191,9 @@ background-color: #f0f0f0;
 }
 
 /* Estilo para detalhes visíveis */
+footer{
+  width:100%;
+}
 .topic-details.active {
   display: block;
 } 
