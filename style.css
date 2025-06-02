@@ -17,7 +17,7 @@ mas 'Open Sans' é mais legível e ainda pode simular uma escrita simples.
 Se quiser algo mais 'caderno', procure por fontes como 'Indie Flower', 'Patrick Hand', etc. */
 
 .notebook-page {
-background-color: #f0f0f0;
+  background-color: #f0f0f0;
 
   width: 800px;
   /* Largura da página do caderno */
@@ -25,9 +25,9 @@ background-color: #f0f0f0;
   /* Altura mínima, pode crescer */
 
   border-radius: 5px;
-  
+
   border: 1px solid #ddd;
- 
+
   color: #333;
   overflow: hidden;
   /* Para garantir que linhas e conteúdo não vazem */
@@ -110,19 +110,22 @@ background-color: #f0f0f0;
   z-index: 2;
   background-color: #f9f9f9;
 }
-.imagem-banner{
-   width: 600px;
-   height: 300px;
-   margin-left: 80px;
-} 
-.imagem-banner img{
+
+.imagem-banner {
+  width: 600px;
+  height: 300px;
+  margin-left: 80px;
+}
+
+.imagem-banner img {
   width: 100%;
   height: 100%;
 }
+
 .image-placeholder {
   width: 100%;
   height: 150px;
-  
+
   justify-content: center;
   align-items: center;
   background-color: #e0e0e0;
@@ -191,12 +194,15 @@ background-color: #f0f0f0;
 }
 
 /* Estilo para detalhes visíveis */
-footer{
+footer {
   box-align: center;
+  margin-left: 350px;
 }
+
 .topic-details.active {
   display: block;
-} 
+}
+
 .page-footer {
   background-color: #ccc;
   color: #fff;
