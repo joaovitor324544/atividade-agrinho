@@ -17,7 +17,7 @@ mas 'Open Sans' é mais legível e ainda pode simular uma escrita simples.
 Se quiser algo mais 'caderno', procure por fontes como 'Indie Flower', 'Patrick Hand', etc. */
 
 .notebook-page {
-  background-color: #ffffff;
+
   width: 800px;
   /* Largura da página do caderno */
   min-height: 1000px;
@@ -134,7 +134,7 @@ Se quiser algo mais 'caderno', procure por fontes como 'Indie Flower', 'Patrick 
 .image-placeholder {
   width: 100%;
   height: 150px;
-  display: flex;
+  
   justify-content: center;
   align-items: center;
   background-color: #e0e0e0;
@@ -149,7 +149,7 @@ Se quiser algo mais 'caderno', procure por fontes como 'Indie Flower', 'Patrick 
 }
 
 .top-image-section .image-placeholder {
-  height: 200px;
+  height: 100px;
   /* Maior para a imagem superior */
 }
 
